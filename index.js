@@ -22,7 +22,7 @@ function createDbnameFromGroupname (dbname) {
 
 Promise.all(
   groups.map(function (group) {
-    var targetDbUrl = 'ae_' + couchUrl + '/' + createDbnameFromGroupname(group)
+    var targetDbUrl = couchUrl + '/ae_' + createDbnameFromGroupname(group)
     var targetDb = new PouchDB(targetDbUrl)
     var options = {
       filter: function (doc) {
