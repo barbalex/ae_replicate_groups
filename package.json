@@ -1,0 +1,15 @@
+{
+  "name": "ae_replicate_groups",
+  "version": "1.0.0",
+  "description": "Dieses Tool repliziert die artendb in 5 gruppenspezifische db's",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Alexander Gabriel",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "pouchdb": "^4.0.0"
+  }
+}
