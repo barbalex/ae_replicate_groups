@@ -9,7 +9,7 @@
   "author": "Alexander Gabriel",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^2.9.34",
-    "pouchdb": "^4.0.0"
+    "bluebird": "3.0.5",
+    "pouchdb": "5.1.0"
   }
 }
