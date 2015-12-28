@@ -10,7 +10,7 @@ const couchPass = require('./couchPass.json')
 
 const couchUrl = 'http://' + couchPass.user + ':' + couchPass.pass + '@127.0.0.1:5984'
 const groups = ['Fauna', 'Flora', 'Moose', 'Macromycetes', 'Lebensräume']
-const mainDb = new PouchDB(couchUrl + '/ae')
+const mainDb = new PouchDB(couchUrl + '/artendb')
 
 PouchDB.setMaxListeners(80)
 
