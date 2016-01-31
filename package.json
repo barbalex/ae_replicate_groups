@@ -11,5 +11,9 @@
   "dependencies": {
     "bluebird": "3.1.1",
     "pouchdb": "5.2.0"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/barbalex/ae_replicate_groups.git"
   }
 }
